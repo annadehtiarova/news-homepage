@@ -1,0 +1,152 @@
+/*
+Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%)
+*/
+
+body{
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0px;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    color: hsl(236, 13%, 42%);
+    font-weight: 400;
+}
+
+nav img{
+    width: 56px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 200px 200px;
+    column-gap: 24px;
+    row-gap: 40px;
+}
+
+main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-item-1{
+    grid-column: span 2;
+}
+.grid-item-2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1; 
+    grid-row-end: 3;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.grid-item-2 h2{
+    color: hsl(35, 77%, 62%);
+    font-size: 40px;
+    margin: 0;
+}
+
+.grid-item-2 p{
+    font-size: 15px;
+    color: hsl(233, 8%, 79%);
+}
+
+.grid-content:not(:last-child){
+    padding-bottom: 18px;
+    border-bottom: 1px solid hsl(233, 8%, 79%, 0.5);
+}
+
+.grid-item-3 h1{
+    font-size: 48px;
+    font-weight: 750;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    margin: 0;
+    width: 250px;
+    padding-top: 12px;
+    color: hsl(240, 100%, 5%);
+    
+}
+
+.grid-item-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    font-size: 15px;
+    color: hsl(236, 13%, 42%, 0.5);
+    line-height: 1.9;
+    margin: 0;
+}
+
+.grid-item-4 button{
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    padding: 12px 32px;
+    font-weight: 700;
+    width: 150px;
+    color: hsl(240, 100%, 5%);
+}
+
+
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.flex-column h3{
+    margin: 0;
+    font-size: 32px;
+    color: hsl(5, 85%, 63%);
+}
+
+.title{
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: hsl(240, 100%, 5%);
+}
+
+.content{
+    margin: 0;
+    font-size: 15px;
+    color: hsl(236, 13%, 42%, 0.5);
+}
+
