@@ -35,6 +35,11 @@ nav{
     font-weight: 400;
 }
 
+.nav-item:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
 nav img{
     width: 56px;
 }
@@ -75,6 +80,11 @@ main img{
     margin: 0;
 }
 
+.grid-item-2 h3:hover{
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
 .grid-item-2 p{
     font-size: 15px;
     color: hsl(233, 8%, 79%);
@@ -101,7 +111,6 @@ main img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
     font-size: 15px;
     color: hsl(236, 13%, 42%, 0.5);
     line-height: 1.9;
@@ -117,7 +126,11 @@ main img{
     color: hsl(240, 100%, 5%);
 }
 
-
+.grid-item-4 button:hover{
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    cursor: pointer;
+}
 
 .flex-column{
     display: flex;
@@ -142,6 +155,11 @@ main img{
     font-size: 16px;
     font-weight: bold;
     color: hsl(240, 100%, 5%);
+}
+
+.title:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
 }
 
 .content{
