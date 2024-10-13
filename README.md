@@ -20,6 +20,7 @@ My challenge was to build out the News homepage and get it looking as close to t
 <img width="1702" alt="Screenshot 2024-10-13 at 13 05 58" src="https://github.com/user-attachments/assets/6cfd4bfc-e4f2-45f7-94f3-82067f2b23fc">
 <br>
 <br>
+<img width="1697" alt="Screenshot 2024-10-13 at 13 22 45" src="https://github.com/user-attachments/assets/1ed64c9a-e54b-41bf-b94c-1edd80354f4c">
 <br>
 <br>
 I was provided with a Figma file.
