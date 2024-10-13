@@ -15,8 +15,12 @@ My challenge was to build out the News homepage and get it looking as close to t
 <br>
 <br>
 <img width="1699" alt="Screenshot 2024-10-13 at 13 05 16" src="https://github.com/user-attachments/assets/8769d1e2-66f2-4bb2-934a-07803edcab2d">
+<br>
+<br>
 <img width="1702" alt="Screenshot 2024-10-13 at 13 05 58" src="https://github.com/user-attachments/assets/6cfd4bfc-e4f2-45f7-94f3-82067f2b23fc">
-<img width="1702" alt="Screenshot 2024-10-13 at 13 06 31" src="https://github.com/user-attachments/assets/5473c34c-4d6a-4586-87f1-73ab50637ce0">
+<br>
+<br>
+<img width="1702" alt="Screenshot 2024-10-13 at 13 14 22" src="https://github.com/user-attachments/assets/552dcee9-6de7-46cf-aa47-ec06f987c098">
 <br>
 <br>
 I was provided with a Figma file.
