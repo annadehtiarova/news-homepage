@@ -1,9 +1,11 @@
-/*
-Off-white: hsl(36, 100%, 99%)
-Grayish blue: hsl(233, 8%, 79%)
-Dark grayish blue: hsl(236, 13%, 42%)
-Very dark blue: hsl(240, 100%, 5%)
-*/
+:root{
+    --off-white: hsl(36, 100%, 99%);
+    --grayish-blue: hsl(233, 8%, 79%);
+    --dark-grayish-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+    --red-hover: hsl(5, 85%, 63%);
+    --orange: hsl(35, 77%, 62%);
+}
 
 body{
     font-family: 'Inter';
@@ -34,8 +36,8 @@ nav{
     align-items: flex-start;
     width: 80%;
     height: 100vh;
-    background-color: #fff;
-    color: hsl(240, 100%, 5%);
+    background-color: var(--off-white);
+    color: var(--very-dark-blue);
     position: relative;
     margin: 0;
     padding: 24px;
@@ -66,12 +68,12 @@ nav{
     display: flex;
     flex-direction: row;
     gap: 32px;
-    color: hsl(236, 13%, 42%);
+    color: var(--dark-grayish-blue);
     font-weight: 400;
 }
 
 .nav-item:hover{
-    color: hsl(5, 85%, 63%);
+    color: var(--red-hover);
     cursor: pointer;
 }
 
@@ -103,8 +105,8 @@ main{
     grid-column-end: 4;
     grid-row-start: 1; 
     grid-row-end: 3;
-    background-color: hsl(240, 100%, 5%);
-    color: hsl(36, 100%, 99%);
+    background-color: var(--very-dark-blue);
+    color: var(--off-white);
     padding: 24px;
     display: flex;
     flex-direction: column;
@@ -112,24 +114,24 @@ main{
 }
 
 .grid-item-2 h2{
-    color: hsl(35, 77%, 62%);
+    color: var(--orange);
     font-size: 40px;
     margin: 0;
 }
 
 .grid-item-2 h3:hover{
-    color: hsl(35, 77%, 62%);
+    color: var(--orange);
     cursor: pointer;
 }
 
 .grid-item-2 p{
     font-size: 15px;
-    color: hsl(233, 8%, 79%);
+    color: var(--grayish-blue);
 }
 
 .grid-content:not(:last-child){
     padding-bottom: 18px;
-    border-bottom: 1px solid hsl(233, 8%, 79%, 0.5);
+    border-bottom: 1px solid var(--grayish-blue);
 }
 
 .grid-item-3 h1{
@@ -140,7 +142,7 @@ main{
     margin: 0;
     width: 250px;
     padding-top: 12px;
-    color: hsl(240, 100%, 5%);
+    color: var(--very-dark-blue);
     
 }
 
@@ -149,23 +151,23 @@ main{
     flex-direction: column;
     justify-content: space-between;
     font-size: 15px;
-    color: hsl(236, 13%, 42%, 0.5);
+    color: var(--dark-grayish-blue);
     line-height: 1.9;
     margin: 0;
 }
 
 .grid-item-4 button{
-    background-color: hsl(5, 85%, 63%);
+    background-color: var(--red-hover);
     border: none;
     padding: 12px 32px;
     font-weight: 700;
     width: 150px;
-    color: hsl(240, 100%, 5%);
+    color: var(--very-dark-blue);
 }
 
 .grid-item-4 button:hover{
-    background-color: hsl(240, 100%, 5%);
-    color: hsl(36, 100%, 99%);
+    background-color: var(--very-dark-blue);
+    color: var(--off-white);
     cursor: pointer;
 }
 
@@ -184,25 +186,25 @@ main{
 .flex-column h3{
     margin: 0;
     font-size: 32px;
-    color: hsl(5, 85%, 63%);
+    color: var(--red-hover);
 }
 
 .title{
     margin: 0;
     font-size: 16px;
     font-weight: bold;
-    color: hsl(240, 100%, 5%);
+    color: var(--very-dark-blue);
 }
 
 .title:hover{
-    color: hsl(5, 85%, 63%);
+    color: var(--red-hover);
     cursor: pointer;
 }
 
 .content{
     margin: 0;
     font-size: 15px;
-    color: hsl(236, 13%, 42%, 0.5);
+    color: var(--dark-grayish-blue);
 }
 
 @media (max-width: 375px){
@@ -212,7 +214,7 @@ main{
 
     .dark-overlay{
         display: none;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: var(--very-dark-blue);
         position: fixed;
         z-index: 0;
         top: 0;
@@ -253,7 +255,7 @@ main{
     }
 
     .side-nav-item:hover{
-        color: hsl(5, 85%, 63%);
+        color: var(--red-hover);
         cursor: pointer;
     }
 
